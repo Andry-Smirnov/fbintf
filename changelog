@@ -1,10 +1,14 @@
-FBINTF Change Log  version          (1.4-10 Build 1266) Tue, 15 Sep 2026 15:07:39 +0100
+FBINTF Change Log  version          (1.4-10 Build 1267) Tue, 15 Sep 2026 16:16:22 +0100
 
 1. Fix use-after-free when ending a transaction with registered users.
 
 2. Add the Firebird 5 service parameter constants for parallel workers and in-place ODS upgrade.
 
 3. Decode the transaction-marker DB info items (tags 104-107) as integers
+
+4. Updated DARWIN search path for dynamic load of Firebird to include
+   '/Library/Frameworks/Firebird.framework/Versions/A/Resources/lib/libfbclient.dylib'
+   as an additional location.  
 
 
 FBINTF Change Log  version          (1.4-9 Build 1258) Tue, 14 Apr 2026 09:54:02 +0100
